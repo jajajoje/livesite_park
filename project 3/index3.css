@@ -1,0 +1,15 @@
+.main_body {
+  background-image: url('images/scene.jpg');
+}
+
+.message {
+  background-color: lightcyan;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pfp {
+  border-radius: 20Px;
+  width: 10%;
+  height: 10%;
+}
