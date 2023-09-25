@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #454955;
+}
+.main_header{
+    padding: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    position: absolute;
+    border-radius: 0 0 35px 0;
+    background-color: #3F7D20;
+    width: 125px;
+    text-align: center;
+    border: 0px;
+    box-shadow: 0 0 5px#3F7D20,
+    0 0 25px #3F7D20,
+    0 0 50px #3F7D20,
+    0 0 200px;
+    -webkit-box-reflect: below 1px linear-gray;
+    font-family: monospace;
+    font-size: 2.3em;
+    z-index: 2;
+}
+.secondary_text{
+    padding: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    border-radius: 0 0 35px 0;
+    background-color: #2d531a;
+    width: fit-content;
+    border: 0px;
+    box-shadow: 0 0 5px#2d531a,
+    0 0 25px #2d531a,
+    0 0 50px #2d531a,
+    0 0 200px;
+    -webkit-box-reflect: below 1px linear-gray;
+    font-family: monospace;
+    font-size: 1.2em;
+    z-index: 1;
+}
+.name{
+    padding: 10px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    border-radius: 35px;
+    background-color: #3F7D20;
+    width: fit-content;
+    border: 0px;
+    box-shadow: 0 0 5px#3F7D20,
+    0 0 25px #3F7D20,
+    0 0 50px #3F7D20,
+    0 0 200px;
+    -webkit-box-reflect: below 1px linear-gray;
+    font-family: monospace;
+    font-size: 1.2em;
+    transform: translate(-50% , -50%);
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 35px;
+    background-color: #454955;
+    width: fit-content;
+    border: 5px solid #3F7D20;
+    box-shadow: 0 0 5px#3F7D20,
+    0 0 25px #3F7D20,
+    0 0 50px #3F7D20,
+    0 0 200px;
+    -webkit-box-reflect: below 1px linear-gray;
+    font-family: monospace;
+    font-size: 1.2em;
+    transform: translate(-50% , -50%);
+}
+.links{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    border-radius: 35px;
+    background-color: #454955;
+    width: fit-content;
+    border: 5px solid #3F7D20;
+    box-shadow: 0 0 5px#3F7D20,
+    0 0 25px #3F7D20,
+    0 0 50px #3F7D20,
+    0 0 200px;
+    -webkit-box-reflect: below 1px linear-gray;
+    font-family: monospace;
+    font-size: 1.2em;
+    transform: translate(-50% , -50%);
+}
