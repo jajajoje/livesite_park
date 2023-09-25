@@ -1,0 +1,60 @@
+.tree {
+  width: 321px;
+  height: 250px;
+}
+
+.building {
+  width: 321px;
+  height: 250px;
+}
+
+.car {
+  width: 321px;
+  height: 250px;
+}
+
+.header {
+  font-family: monospace;
+}
+
+@media screen and (max-width: 321px) {
+  .tree {
+    content: url("images/tree1.jpg");
+  }
+
+  .building {
+    content: url("images/building1.jpg");
+  }
+
+  .car {
+    content: url("images/car1.jpg");
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .tree {
+    content: url("images/tree2.jpg");
+  }
+
+  .building {
+    content: url("images/building2.jpg");
+  }
+
+  .car {
+    content: url("images/car2.jpg");
+  }
+}
+
+@media (min-width: 769px) {
+  .tree {
+    content: url("images/tree3.jpg");
+  }
+
+  .building {
+    content: url("images/building3.jpg");
+  }
+
+  .car {
+    content: url("images/car3.jpg");
+  }
+}
