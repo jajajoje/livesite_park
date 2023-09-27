@@ -177,6 +177,10 @@ body{
     top: 40%;
     left: 18%;
 }
+#project4final{
+    top: 17%;
+    left: 80%;
+}
 #personal{
     top: 15%;
     left: 50%;
@@ -195,6 +199,10 @@ body{
     left: 10%;
     width: 100px;
     height: 38px;
+}
+.center_info:hover ~ #project4final{
+    top: 13%;
+    left: 85%;
 }
 .center_info:hover ~ #personal{
     top: 12%;
