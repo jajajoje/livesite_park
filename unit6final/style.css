@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  img1 {
+    height: 300px;
+  }
+  
+  #borderimg {
+    background-color: aliceblue;
+  }
+  
+  body {
+    background-image: url('images/carSilhouette.png');
+    background-size: cover;
+  }
+  
+  #wrapper {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  ul {
+    list-style-image: url('images/banana.webp');
+  }

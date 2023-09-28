@@ -181,6 +181,14 @@ body{
     top: 17%;
     left: 80%;
 }
+#project5final{
+    top: 85%;
+    left: 50%;
+}
+#project6final{
+    top: 80%;
+    left: 25%;
+}
 #personal{
     top: 15%;
     left: 50%;
@@ -203,6 +211,14 @@ body{
 .center_info:hover ~ #project4final{
     top: 13%;
     left: 85%;
+}
+.center_info:hover ~ #project5final{
+    top: 90%;
+    left: 50%;
+}
+.center_info:hover ~ #project6final{
+    top: 85%;
+    left: 15%;
 }
 .center_info:hover ~ #personal{
     top: 12%;

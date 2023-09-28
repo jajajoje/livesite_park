@@ -1,0 +1,39 @@
+body{
+    background-color: blue;
+  }
+  h1, h2, h3{
+    text-align: center;
+  }
+  #wrapper{
+    width: 80%;
+    margin: auto;
+    background-color: crimson;
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+  }
+  div{
+    width: 90%;
+    margin: auto;
+  }
+  .itembox{
+    border: 5px solid green;
+    border-radius: 50px;
+    box-shadow: 60px -16px teal;
+    background-color: honeydew;
+    color: darkgoldenrod;
+    padding: 10px;
+  }
+  .favorite{
+    border: 5px solid lime;
+    border-radius: 50px;
+    box-shadow: 60px -16px teal;
+    background-color: blueviolet;
+    color: blanchedalmond;
+    padding: 10px;
+  }
+  .list{
+    list-style-type: upper-roman;
+    background-color: navajowhite;
+  }
+  li {
+    float: left;
+  }
