@@ -189,6 +189,10 @@ body{
     top: 80%;
     left: 25%;
 }
+#project7{
+    top: 60%;
+    right: -5%;
+}
 #personal{
     top: 15%;
     left: 50%;
@@ -220,6 +224,12 @@ body{
     top: 85%;
     left: 15%;
 }
+.center_info:hover ~ #project7{
+    top: 64%;
+    right: -3%;
+    width: 10%;
+    height: 4%;
+} 
 .center_info:hover ~ #personal{
     top: 12%;
 }

@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #item1 {
+    float: left;
+    background-color: #d2c4b1;
+    font-family: Verdana, sans-serif;
+    padding: 20px;
+  }
+  
+  #item2 {
+    border-bottom: 5px solid black;
+    border-style: dotted;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+  }
+  
+  #item3 {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background: lightgray;
+    border: 5px solid black;
+  }
+  
+  #item4 {
+    position: relative;
+    left: 15px;
+    background-color: lightgreen;
+  }
+  
+  #item5 {
+    position: fixed;
+    background-color: lightgray;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  #item6 {
+    list-style-image: url('myimage.gif');
+  }
