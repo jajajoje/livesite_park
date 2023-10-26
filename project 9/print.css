@@ -1,0 +1,13 @@
+* {
+    font-size: 1.05em;
+    color: black;
+    background-color: white;
+  }
+  @media print {
+    a::after {
+      content: " (" attr(href) ")";
+    }
+  }
+  img{
+    display: none;
+  }
