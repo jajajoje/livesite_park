@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+}
+  
+td, th, tr{
+    border: 1px solid black;
+}
+.why{
+    border: 1px solid black; 
+}
+
+.tr_item:nth-child(even) {
+    background-color: #CCCCCC;
+}
+.tr_item > * {
+    border: 0;
+}
