@@ -191,7 +191,23 @@ body{
 }
 #project7{
     top: 60%;
-    right: -5%;
+    right: 5%;
+}
+#project9{
+    top: 40%;
+    right: 8%;
+}
+#project10{
+    top: 75%;
+    right: 9%;
+}
+#project11{
+    top: 80%;
+    right: 25%;
+}
+#project11-2{
+    top: 20%;
+    right: 25%;
 }
 #personal{
     top: 15%;
@@ -230,6 +246,22 @@ body{
     width: 10%;
     height: 4%;
 } 
+.center_info:hover ~ #project9{
+    top: 38%;
+    right:6%;
+}
+.center_info:hover ~ #project10{
+    top: 80%;
+    right:6%;
+}
+.center_info:hover ~ #project11{
+    top: 90%;
+    right:23%;
+}
+.center_info:hover ~ #project11-2{
+    top: 12%;
+    right:23%;
+}
 .center_info:hover ~ #personal{
     top: 12%;
 }

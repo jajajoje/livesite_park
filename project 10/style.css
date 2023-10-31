@@ -5,13 +5,10 @@ table{
 td, th, tr{
     border: 1px solid black;
 }
-.why{
-    border: 1px solid black; 
-}
 
 .tr_item:nth-child(even) {
     background-color: #CCCCCC;
 }
-.tr_item > * {
+.item, .tr_item{
     border: 0;
 }
