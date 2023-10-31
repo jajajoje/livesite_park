@@ -165,100 +165,123 @@ body{
     width: 170px;
     height: 100px;
 }
-#project1{
+#a{
     top: 20%;
     left: 20%;
 }
-#project3{
+#b{
     top: 60%;
     left: 15%;
 }
-#project3final{
+#c{
     top: 40%;
     left: 18%;
 }
-#project4final{
+#d{
     top: 17%;
     left: 80%;
 }
-#project5final{
+#e{
     top: 85%;
     left: 50%;
 }
-#project6final{
+#f{
     top: 80%;
     left: 25%;
 }
-#project7{
+#g{
     top: 60%;
     right: 5%;
 }
-#project9{
+#h{
     top: 40%;
     right: 8%;
 }
-#project10{
+#i{
     top: 75%;
     right: 9%;
 }
-#project11{
+#j{
     top: 80%;
     right: 25%;
 }
-#project11-2{
+#k{
     top: 20%;
     right: 25%;
+}
+#l{  top: 30%;
+    right: 15%;
+}
+#m{
+    top: 84%;
+    right: 10%;
+}
+#n{
+    top: 70%;
+    left: 25%;
+}
+#o{
+    top: 50%;
+    left: 13%;
+}
+#p{
+    top: 30%;
+    left: 15%;
+}
+#q{
+    top: 50%;
+    right: 15%;
 }
 #personal{
     top: 15%;
     left: 50%;
 }
-.center_info:hover ~ #project1{
+.center_info:hover ~ #a{
     top: 14%;
     left: 15%
 }
-.center_info:hover ~ #project3{
+.center_info:hover ~ #b{
     top: 60%;
     left: 10%;
     width: 100px;
 }
-.center_info:hover ~ #project3final{
+.center_info:hover ~ #c{
     top: 38%;
     left: 10%;
     width: 100px;
     height: 38px;
 }
-.center_info:hover ~ #project4final{
+.center_info:hover ~ #d{
     top: 13%;
     left: 85%;
 }
-.center_info:hover ~ #project5final{
+.center_info:hover ~ #e{
     top: 90%;
     left: 50%;
 }
-.center_info:hover ~ #project6final{
+.center_info:hover ~ #f{
     top: 85%;
     left: 15%;
 }
-.center_info:hover ~ #project7{
+.center_info:hover ~ #g{
     top: 64%;
     right: -3%;
     width: 10%;
     height: 4%;
 } 
-.center_info:hover ~ #project9{
+.center_info:hover ~ #h{
     top: 38%;
     right:6%;
 }
-.center_info:hover ~ #project10{
+.center_info:hover ~ #i{
     top: 80%;
     right:6%;
 }
-.center_info:hover ~ #project11{
+.center_info:hover ~ #j{
     top: 90%;
     right:23%;
 }
-.center_info:hover ~ #project11-2{
+.center_info:hover ~ #k{
     top: 12%;
     right:23%;
 }
