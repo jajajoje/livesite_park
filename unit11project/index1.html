@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favorite Movie</title>
+    <title>Fourm</title>
 </head>
 <body>
     <a href="index.html">back</a>
+    <form action="https://webdevbasics.net/scripts/demo.php">
+        <label for="user">User Name:</label>
+        <input type="text" id="user"maxlength="30">
+        <br><br>
+        <label>Favorite Month of the Year</label>
+        <br>
+        <input type="radio" id="january" name="month">
+        <label for="january">January</label>
+        <br>
+        <input type="radio" id="february" name="month">
+        <label for="february">February</label>
+        <br>
+        <input type="radio" id="march" name="month">
+        <label for="march">March</label>
+        <br>
+        <input type="radio" id="april" name="month">
+        <label for="april">April</label>
+        <br>
+        <input type="radio" id="may" name="month">
+        <label for="may">May</label>
+        <br>
+        <input type="radio" id="june" name="month">
+        <label for="june">June</label>
+        <br>
+        <input type="radio" id="july" name="month">
+        <label for="july">July</label>
+        <br>
+        <input type="radio" id="august" name="month">
+        <label for="august">August</label>
+        <br>
+        <input type="radio" id="september" name="month">
+        <label for="september">September</label>
+        <br>
+        <input type="radio" id="october" name="month">
+        <label for="october">October</label>
+        <br>
+        <input type="radio" id="november" name="month">
+        <label for="november">November</label>
+        <br>
+        <input type="radio" id="december" name="month">
+        <label for="december">December</label>
+        <br>
+        
+        <br><br>
+
+        <label for="social">Favorite Social Newtwork:</label>
+        <select id="social" name="social">
+            <option value="facebook">Facebook</option>
+            <option value="twitter">Twitter</option>
+            <option value="instagram">Instagram</option>
+            <option value="steam">Steam</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Shipping Address</legend>
+            <label for="address1">Fists Address:</label>
+            <input type="text" id="address1" name="address1">
+            <br><br>
+            <label for="address2">Second Address:</label>
+            <input type="text" id="address2" name="address2">
+            <br><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <br><br>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state">
+            <br><br>
+            <label for="zip">Zip:</label>
+            <input type="text" id="zip" name="zip">
+        </fieldset><br>
+
+        <input type="image" src="signup.gif" alt="Submit">
+        <input type="hidden" name="userid" value="12345">
+        <label for="pword">Password</label>
+        <input type="password" id="pword" name="pword">
+        <h2>Submit</h2>
+        <input type="submit">
+    </form>
 </body>
 </html>
